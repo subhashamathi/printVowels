@@ -7,7 +7,7 @@ public class printVowels
     	printVowels.printVowels("Hello");
     	
     }
-    static void printVowels(final String s)
+    static void printVowels(String s)
     {
     	 String vowels="aeiouAEIOU";
     	 for(int i=0;i<s.length();i++)
